@@ -1,0 +1,77 @@
+# .gitignore
+
+# ---------------------------------------------------------------
+# General ignores for both Frontend (Node) and Backend (Python)
+# ---------------------------------------------------------------
+.DS_Store
+.env                 # Environment variables (sensitive info)
+.env.local           # Local environment variables
+.env.development.local
+.env.test.local
+.env.production.local
+.vscode/             # VS Code settings (optional, but often personal)
+.idea/               # IntelliJ/PyCharm IDE files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# ---------------------------------------------------------------
+# Python Backend Specific Ignores
+# ---------------------------------------------------------------
+# Virtual environment
+venv/
+.venv/
+__pycache__/
+*.pyc
+*.pyd
+*.so
+# Python build artifacts
+.Python
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+htmlcov/
+.coverage
+# Jupyter Notebook files (if any)
+.ipynb_checkpoints
+# Database files (if using local SQLite or similar)
+*.db
+*.sqlite3
+
+# ---------------------------------------------------------------
+# Node.js Frontend Specific Ignores
+# ---------------------------------------------------------------
+node_modules/
+build/               # Create React App build output
+dist/                # Common build output directory
+.cache/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+# Editor directories and files
+.idea
+.vscode
+*.sublime-project
+*.sublime-workspace
+
+# Dependency directories
+jspm_packages/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Test coverage
+coverage/
+
+# Misc
+.DS_Store
+Thumbs.db
+
+# Storybook (if used)
+.storybook/out
+
+# Next.js specific (if you decide to use Next.js fully)
+.next/
+out/
