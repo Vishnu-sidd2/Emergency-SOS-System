@@ -200,16 +200,9 @@ MIT — Free to use, modify, and distribute.
 
 ---
 
-## ✨ Contributing
-
-Feel free to open issues, suggest improvements, or fork and enhance the platform. PRs are welcome!
-
----
 
 ## ✨ Inspiration
 
 Built for a real-world scenario to improve emergency infrastructure with technology. Imagine this helping cities reduce fatalities and enhance public safety — that's the impact this system aims for.
 
 ---
-
-> Want deployment steps or a live demo setup? Ping me and I’ll generate it for you instantly!
